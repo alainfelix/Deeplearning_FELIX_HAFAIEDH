@@ -10,27 +10,26 @@ La décision SAFE est prise si le modèle détecte au moins une bounding box de 
 ## Organisation du dépôt
 ```
 .
-├── LANDING PAD.v2i.yolov8/
-│   ├── runs/
-│   │  ├── detect/...
-│   │  └── postproc/
-│   │    ├── best_thresholds.json
-│   │    ├── tuning_results.csv
-│   │    ├── test_predictions.csv
-│   │    ├── live_log.csv
-│   │    └── live_demo.(mp4/avi)          # Dataset YOLO (Roboflow export)
-│   ├── train/
-│   │   ├── images/
-│   │   └── labels/
-│   ├── valid/
-│   │   ├── images/
-│   │   └── labels/
-│   ├── test/
-│   │   ├── images/
-│   │   └── labels/
-│   ├── data.yaml
-│   ├── Projet_HAFAIEDH_FELIX.ipynb
-│   └── README.md
+├── runs/
+│  ├── detect/...
+│  └── postproc/
+│    ├── best_thresholds.json
+│    ├── tuning_results.csv
+│    ├── test_predictions.csv
+│    ├── live_log.csv
+│    └── live_demo.(mp4/avi)          # Dataset YOLO (Roboflow export)
+├── train/
+│   ├── images/
+│   └── labels/
+├── valid/
+│   ├── images/
+│   └── labels/
+├── test/
+│   ├── images/
+│   └── labels/
+├── data.yaml
+├── Projet_HAFAIEDH_FELIX.ipynb
+└── README.md
 ```
 
 ## Prérequis
